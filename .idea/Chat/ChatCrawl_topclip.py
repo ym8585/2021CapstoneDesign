@@ -76,7 +76,7 @@ if __name__ == "__main__":
     wb = openpyxl.Workbook()
     sheet = wb.active
     sheet.append(["title","game","Chat Time","commenter","message"])
-    Channel = "sunbaKing"
+    Channel = "flowervin"
     Limit = 5
     ClientId = "jj19xbkqbx3l9ca9o3mno5obymdkmb" # Client id 추가
     collectClip(Channel, Limit, ClientId, sheet)
